@@ -1,7 +1,7 @@
 body{
 	background:#333333 url(images/page-bg.jpg);
 	margin:0px;
-	font: 400 12px/22px 'Open Sans', Verdana, Helvetica, sans-serif;
+	font: 400 16px/22px 'Open Sans', Verdana, Helvetica, sans-serif;
 	color:#6a6969;
 }
 h1{font: 400 58px/60px 'Bree Serif', Georgia, serif; color:#6a6969;}
@@ -69,6 +69,13 @@ a img{border:0px;}
 	background:url(images/sm-twitter-icon.png) no-repeat;
 }
 #about #top-social .linkedin{
+	text-indent:-9999px; 
+	display:block; 
+	width:26px; 
+	height:26px; 
+	background:url(images/sm-linkedin-icon.png) no-repeat;
+}
+#about #top-social .google{
 	text-indent:-9999px; 
 	display:block; 
 	width:26px; 
